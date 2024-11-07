@@ -54,6 +54,37 @@ body.dark-theme{
   --body-color: #2B2B2B;
 }
 
+/*========== Language switcher ==========*/
+.change_language_russian{
+  position: absolute;
+  left: 0;
+  top: 2.2rem;
+  display: inline-flex;
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+}
+
+.change_language_bar{
+  position: absolute;
+  left: 1.6rem;
+  top: 2.2rem;
+  display: inline-flex;
+  color: var(--title-color);
+  font-size: var(--normal-font-size);
+}
+
+.change_language_english{
+  position: absolute;
+  left: 2rem;
+  top: 2.2rem;
+  display: inline-flex;
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+}
+
+
 /*========== Button Dark/Light ==========*/
 .change-theme{
   position: absolute;
@@ -84,7 +115,7 @@ body.scale-cv{
   display: none;
   position: absolute;
   top: 2.2rem;
-  left: 0;
+  right: 2.2rem;
   font-size: 1.2rem;
   color: var(--text-color);
   cursor: pointer;
@@ -314,6 +345,10 @@ img{
 /* Active menu link */
 .active-link{
   color: var(--title-color)
+}
+
+.not_active{
+  display: none;
 }
 
 /*========== HOME ==========*/

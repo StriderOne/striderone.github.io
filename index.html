@@ -22,45 +22,52 @@
                     <u1 class="nav__list">
                         <li class="nav__item">
                             <a href="#home" class="nav__link active-link">
-                                <i class='bx bx-home'></i>Home
+                                <i class='bx bx-home'></i> <span class="rus not_active">Главная</span>
+                                <span class="eng">Home</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#profile" class="nav__link ">
-                                <i class='bx bx-user'></i>Profile
+                                <i class='bx bx-user'></i> <span class="rus not_active">Профиль</span>
+                                <span class="eng">Profile</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#education" class="nav__link">
-                                <i class='bx bx-book'></i>Education
+                                <i class='bx bx-book'></i><span class="rus not_active">Образование</span>
+                                <span class="eng">Education</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">
-                                <i class='bx bx-receipt'></i>Skills
+                                <i class='bx bx-receipt'></i><span class="rus not_active">Навыки</span>
+                                <span class="eng">Skills</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#experience" class="nav__link">
-                                <i class='bx bx-briefcase-alt'></i>Experience
+                                <i class='bx bx-briefcase-alt'></i><span class="rus not_active">Опыт работы</span>
+                                <span class="eng">Experience</span>
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#certificates" class="nav__link">
-                                <i class='bx bx-award'></i>Certificates
+                                <i class='bx bx-award'></i><span class="rus not_active">Награды</span>
+                                <span class="eng">Certificates</span>
                             </a>
                         </li>
 
-                        <li class="nav__item">
+                        <!-- <li class="nav__item">
                             <a href="#references" class="nav__link">
-                                <i class='bx bx-link-external'></i>References
+                                <i class='bx bx-link-external'></i> <span class="rus not_active">Награды</span>
+                                <span class="eng">Certificates</span>
                             </a>
-                        </li>
+                        </li> -->
                     </u1>
                 </div>
 
@@ -80,18 +87,30 @@
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
                                 <img src="assets/img/img.jpg" alt="" class="home__img">
-                                <h1 class="home__title">ROMAN <b>SIMONOV</b></h1>
-                                <h3 class="home__profession">ROBOTICS ENGINEER</h3>
+                                <h1 class="home__title"> 
+                                    <span class="rus not_active">Роман</span>
+                                    <span class="eng">ROMAN</span>
+                                    <span class="rus not_active"><b>Симонов</b></span>
+                                    <span class="eng"><b>SIMONOV</b></span>
+                                </h1>
+                                <h3 class="home__profession">
+                                    
+                                    <span class="rus not_active">Робототехник</span>
+                                    <span class="eng">ROBOTICS ENGINEER</span>
+                                </h3>
                                 
                                 <div>
-                                    <a download="" href="" class="home__button-movil" id="download-button"> Download</a>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil"> 
+                                        <span class="rus not_active">Скачать</span>
+                                        <span class="eng">Download</span>
+                                    </a>
                                 </div>
-                                
                             </div>
 
                             <div class="home__address bd-grid">
                                 <span class="home__information">
-                                    <i class='bx bx-map home__icon'></i> St. Petersburg
+                                    <i class='bx bx-map home__icon'></i> <span class="rus not_active">Санкт-Петербург, Россия</span>
+                                    <span class="eng">St. Petersburg, Russia</span>
                                 </span>
 
                                 <span class="home__information">
@@ -110,11 +129,29 @@
     
                         <!-- Button to generate and download the pdf. Available for desktop. -->
                         <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+
+                        <!-- Button to change language -->
+                        <!-- <i class='bx bx-book-open' title="Change Language" id="language-button"> </i> -->
+                    
+                        <span class="russian__switch change_language_russian" id="russian-button">
+                            RU
+                        </span>
+                        <span class="language__bar change_language_bar">
+                            |
+                        </span>
+                        <span class="english__switch change_language_english active-link" id="english-button">
+                            EN
+                        </span> 
+
+                        
                     </section>          
                     
                     <!--========== SOCIAL ==========-->
                     <section class="social section">
-                        <h2 class="section-title">SOCIAL</h2>
+                        <h2 class="section-title">
+                            <span class="rus not_active">Контакты</span>
+                            <span class="eng">Social</span>
+                        </h2>
                         
                         <div class="social__container bd-grid">
                             <a href="https://t.me/gloomking" target="_blank" class="social__link">
@@ -131,15 +168,23 @@
 
                     <!--========== PROFILE ==========-->
                     <section class="profile section" id="profile">
-                        <h2 class="section-title">Profile</h2>
+                        <h2 class="section-title">
+                            <span class="rus not_active">О себе</span>
+                            <span class="eng">Profile</span>
+                        </h2>
 
-                        <p class="profile__description">I am a person, responsible with their work during working hours. Finish various technical and higher studies at large universities. I have several years of experience and achievements in the labor field.
+                        <p class="profile__description"> 
+                            <span class="rus not_active">Я человек</span>
+                            <span class="eng">I am a person, responsible with their work during working hours. Finish various technical and higher studies at large universities. I have several years of experience and achievements in the labor field.</p></span>
                         </p>
                     </section>
                     
                     <!--========== EDUCATION ==========-->
                     <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
+                        <h2 class="section-title">
+                            <span class="rus not_active">Образование</span>
+                            <span class="eng">Education</span>
+                        </h2>
 
                         <div class="education__container bd-grid">
                             <div class="education__content">
@@ -149,9 +194,19 @@
                                 </div>
 
                                 <div class="education__data bd-grid">
-                                    <h3 class="education__title">MASTER</h3>
-                                    <span class="education__studeis">ITMO</span>
-                                    <span class="education__year">2021 - 2025</span>
+                                    <h3 class="education__title">
+                                        <span class="rus not_active">Бакалавриат</span>
+                                        <span class="eng">BACHELOR</span>
+                                    </h3>
+                                    <span class="education__studeis">
+                                        
+                                        <span class="rus not_active">НИУ ИТМО, Робототехника и ИИ</span>
+                                        <span class="eng">ITMO University, Robotics and AI </span>
+                                    </span>
+                                    <span class="education__year">
+                                        <span class="rus not_active"> 2021 - Н.В.</span>
+                                        <span class="eng">2021 - Present </span>
+                                    </span>
                                 </div>                            
                             </div>
 
@@ -161,7 +216,10 @@
 
                     <!--========== SKILLS  ==========-->
                     <section class="skills section" id="skills">
-                        <h2 class="section-title">Skills</h2>
+                        <h2 class="section-title">
+                            <span class="rus not_active">Навыки</span>
+                            <span class="eng">Skills</span>
+                        </h2>
 
                         <div class="skills__content bd-grid">
                             <u1 class="skills__data">
@@ -170,7 +228,7 @@
                                 </li>
 
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> C++
+                                    <span class="skills__circle"></span> С/C++
                                 </li>
 
                                 <li class="skills__name">
@@ -184,15 +242,11 @@
 
                             <u1 class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> Python
+                                    <span class="skills__circle"></span> Computer Vision
                                 </li>
 
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> C++
-                                </li>
-
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span> Robotics
+                                    <span class="skills__circle"></span> Algorithms
                                 </li>
 
                             </u1>
@@ -204,7 +258,10 @@
                 <div class="resume__right">
                     <!--========== EXPERIENCE ==========-->
                     <section class="experience section" id="experience">
-                        <h2 class="section-title">Experience</h2>
+                        <h2 class="section-title">
+                            <span class="rus not_active">Опыт работы</span>
+                            <span class="eng">Experience</span>
+                        </h2>
 
                         <div class="experience__conainer bd-grid">
                             <div class="experience__content">
@@ -234,12 +291,16 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div>                
+
                     </section>
 
                     <!--========== CERTIFICATES ==========-->
                     <section class="certificate section" id="certificates">
-                        <h2 class="section-title">Certificates</h2>
+                        <h2 class="section-title">
+                            <span class="rus not_active">Награды</span>
+                            <span class="eng">Certificates</span>
+                        </h2>
 
                         <div class="certificate__container bd-grid">
                             <div class="certificate__content">
