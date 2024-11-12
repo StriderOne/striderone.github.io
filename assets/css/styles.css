@@ -67,7 +67,7 @@ body.dark-theme{
 
 .change_language_bar{
   position: absolute;
-  left: 1.6rem;
+  left: 1.45rem;
   top: 2.2rem;
   display: inline-flex;
   color: var(--title-color);
@@ -84,6 +84,26 @@ body.dark-theme{
   cursor: pointer;
 }
 
+
+.certificate_rounder {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color-light);
+  border-radius: 50%;
+  margin-right: 0.38rem;
+  margin-left: 0.37rem;
+}
+
+.publication_rounder {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color-light);
+  border-radius: 50%;
+  margin-right: 0.38rem;
+  margin-left: 0.37rem;
+}
 
 /*========== Button Dark/Light ==========*/
 .change-theme{
@@ -115,7 +135,7 @@ body.scale-cv{
   display: none;
   position: absolute;
   top: 2.2rem;
-  right: 2.2rem;
+  left: 0;
   font-size: 1.2rem;
   color: var(--text-color);
   cursor: pointer;
@@ -174,7 +194,8 @@ body.scale-cv{
 
 .scale-cv .education__container,
 .scale-cv .experience__container,
-.scale-cv .certificate__container{
+.scale-cv .certificate__container,
+.scale-cv .publications__container{
   gap: 1rem;
 }
 
@@ -347,9 +368,9 @@ img{
   color: var(--title-color)
 }
 
-.not_active{
+/* .not_active{
   display: none;
-}
+} */
 
 /*========== HOME ==========*/
 .home{
@@ -527,7 +548,10 @@ img{
 }
 
 /*========== REFERENCES ==========*/
-
+.publication__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
 
 /*========== INTERESTS ==========*/
 
