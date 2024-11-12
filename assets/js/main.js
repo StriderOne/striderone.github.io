@@ -85,31 +85,31 @@ themeButton.addEventListener('click', () => {
 
 /*==================== CHANGE LANGUAGE ====================*/ 
 
-let englishButton = document.getElementById('english-button')
-let russianButton = document.getElementById('russian-button')
-const rus_text = document.querySelectorAll(".rus");
-const eng_text = document.querySelectorAll(".eng");
+// let englishButton = document.getElementById('english-button')
+// let russianButton = document.getElementById('russian-button')
+// const rus_text = document.querySelectorAll(".rus");
+// const eng_text = document.querySelectorAll(".eng");
 
-englishButton.addEventListener('click', ()=>{
-    document.getElementById('english-button').classList.add('active-link')
-    document.getElementById('russian-button').classList.remove('active-link')
+// englishButton.addEventListener('click', ()=>{
+//     document.getElementById('english-button').classList.add('active-link')
+//     document.getElementById('russian-button').classList.remove('active-link')
     
-    for (let i = 0; i < rus_text.length; i++) {
-        rus_text[i].classList.add('not_active');
-        eng_text[i].classList.remove('not_active');
-    }
+//     for (let i = 0; i < rus_text.length; i++) {
+//         rus_text[i].classList.add('not_active');
+//         eng_text[i].classList.remove('not_active');
+//     }
 
-})
+// })
 
-russianButton.addEventListener('click', ()=>{
-    document.getElementById('russian-button').classList.add('active-link')
-    document.getElementById('english-button').classList.remove('active-link')
+// russianButton.addEventListener('click', ()=>{
+//     document.getElementById('russian-button').classList.add('active-link')
+//     document.getElementById('english-button').classList.remove('active-link')
 
-    for (let i = 0; i < rus_text.length; i++) {
-        rus_text[i].classList.remove('not_active');
-        eng_text[i].classList.add('not_active')
-    }
-})
+//     for (let i = 0; i < rus_text.length; i++) {
+//         rus_text[i].classList.remove('not_active');
+//         eng_text[i].classList.add('not_active')
+//     }
+// })
 
 
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/ 
