@@ -225,7 +225,9 @@ body.scale-cv{
   gap: .25rem;
 }
 
-.scale-cv .skills__name{
+.scale-cv .skills__name,
+.scale-cv .publication__name,
+.scale-cv .project__name{
   margin-bottom: var(--mb-1);
 }
 
@@ -515,26 +517,39 @@ img{
   color: var(--title-color);
 }
 
+.experience__description{
+  font-size: var(--smaller-font-size);
+}
+
+
 .education__year{
   font-size: var(--smaller-font-size);
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
-.skills__content{
+.skills__content,
+.project__content,
+.publication__content{
   grid-template-columns: repeat(2, 1fr);
 }
 
-.skills__content{
+.skills__content,
+.project__content,
+.publication__content{
   gap: 0;
 }
 
-.skills__name{
-  display: flex;
+.skills__name,
+.project__name,
+.publication__name{
+  /* display: flex; */
   align-items: center;
   margin-bottom: var(--mb-3);
 }
 
-.skills__circle{
+.skills__circle,
+.project__circle,
+.publication__circle{
   display: inline-block;
   width: 5px;
   height: 5px;
